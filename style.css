@@ -1,0 +1,58 @@
+.title{
+    position:absolute;
+    right:0;
+    top:0;
+    color: rgb(154, 220, 22);
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+}
+.parent{
+    display: flex;
+    gap:50px;
+    background-color:bisque;
+    width: 100%;
+    height: 580px;
+    margin-top: 75px;
+    justify-content: end;
+
+}
+.child{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.child_box-2{
+    background-color:darkgray;
+    height: 100px;
+    width: 100px;
+}
+
+/*
+.bu{
+    margin-top: 30px;
+    width: 16%;
+    height: 60px;
+    background-color:yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.bu:hover{
+    background-color: aquamarine;
+}
+.bu:focus{
+    background-color: blueviolet;
+}
+*/
+@media (max-width:768px){
+    body{
+        background-color: aqua;
+    }
+
+
+}
