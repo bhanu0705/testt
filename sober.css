@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:beige;
+}
+
+
+.header{
+    position:relative;
+    display: flex;
+    gap: 20px;
+    background-color: green;
+    width: 100%;
+    height: 150px;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+   
+}
+.title{
+    position: absolute;
+    top:1px;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 680%;
+    
+}
+.sk{
+    position: relative;
+    top:50px;
+    left:20px;
+    color: yellow;
+    font-family: franklin gothic light;
+    font-size: 300%;
+}
+.search{
+position: relative;
+display: flex;
+width: 100%;
+height: 50px;
+background-color: green;
+}
+.sidemenu{
+    width: 40px;
+    height: 40px;
+    
+}
+.menuicon{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.sbar{
+    margin-top: 7px;
+    margin-left: 7px;
+    width: 60px;
+    height: 40px;
+}
+.sbarinput{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+}
+.sec{
+    background-color: aquamarine;
+    
+}
+.content {
+
+    display: flex;
+    width:100%;
+    height:300px;
+    background-color:yellowgreen;
+
+}
+
+.box {
+    display: flex;
+    min-height:; 
+}
+.column{
+    width:200px;
+    height:300px;
+    border-radius: 8px;
+}
+.bu{
+    margin-top: 30px;
+    width: 16%;
+    height: 60px;
+    background-color:burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    
+}
